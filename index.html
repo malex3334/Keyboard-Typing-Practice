@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard practice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="" class="container">
+      <div class="title">
+        <h1 class="header">Keyboard typing practice</h1>
+        <h2 class="subheader">Type without looking!</h2>
+      </div>
+      <div class="timer-box">
+        <span>Speed:</span>
+        <div class="time-counter"></div>
+      </div>
+      <div class="scores-container">
+        <div id="score" class="score">Score:</div>
+        <div id="best-score" class="score">Best Score:</div>
+        <div id="top-speed" class="score">Top Speed:</div>
+        <div id="avg-speed" class="score">Avg Speed:</div>
+      </div>
+      <div class="keyboard">
+        <ul class="row row-0">
+          <li id="esc" class="pinky-left">ESC</li>
+          <li id="1" class="pinky-left">1</li>
+          <li id="2" class="ring-left">2</li>
+          <li id="3" class="middle-left">3</li>
+          <li id="4" class="pointer-left">4</li>
+          <li id="5" class="pointer-left">5</li>
+          <li id="6" class="pointer-right">6</li>
+          <li id="7" class="pointer-right">7</li>
+          <li id="8" class="middle-right">8</li>
+          <li id="9" class="ring-right">9</li>
+          <li id="0" class="pinky-right">0</li>
+          <li id="-" class="pinky-right">-</li>
+          <li id="+" class="pinky-right">+</li>
+          <li id="back" class="pinky-right">BACK</li>
+        </ul>
+
+        <ul class="row row-1">
+          <li id="TAB" class="pinky-left">TAB</li>
+          <li id="Q" class="pinky-left">Q</li>
+          <li id="W" class="ring-left">W</li>
+          <li id="E" class="middle-left">E</li>
+          <li id="R" class="pointer-left">R</li>
+          <li id="T" class="pointer-left">T</li>
+          <li id="Y" class="pointer-right">Y</li>
+          <li id="U" class="pointer-right">U</li>
+          <li id="I" class="middle-right">I</li>
+          <li id="O" class="ring-right">O</li>
+          <li id="P" class="pinky-right">P</li>
+          <li id="[" class="pinky-right">[</li>
+          <li id="]" class="pinky-right">]</li>
+          <li id="\" class="pinky-right">\</li>
+        </ul>
+        <ul class="row row-2">
+          <li id="CAPS" class="pinky-left">CAPS</li>
+          <li id="A" class="pinky-left">A</li>
+          <li id="S" class="ring-left">S</li>
+          <li id="D" class="middle-left">D</li>
+          <li id="F" class="pointer-left">F</li>
+          <li id="G" class="pointer-left">G</li>
+          <li id="H" class="pointer-right">H</li>
+          <li id="J" class="pointer-right">J</li>
+          <li id="K" class="middle-right">K</li>
+          <li id="L" class="ring-right">L</li>
+          <li id=";" class="pinky-right">;</li>
+          <li id="'" class="pinky-right">'</li>
+          <li id="ENTER" class="pinky-right">ENTER</li>
+        </ul>
+
+        <ul class="row row-3">
+          <li id="SHIFTL" class="pinky-left">SHIFT</li>
+          <li id="Z" class="pinky-left">Z</li>
+          <li id="X" class="ring-left">X</li>
+          <li id="C" class="middle-left">C</li>
+          <li id="V" class="pointer-left">V</li>
+          <li id="B" class="pointer-left">B</li>
+          <li id="N" class="pointer-right">N</li>
+          <li id="M" class="pointer-right">M</li>
+          <li id="," class="middle-right">,</li>
+          <li id="." class="ring-right">.</li>
+          <li id="/" class="pinky-right">/</li>
+          <li id="SHIFTR" class="pinky-right">SHIFT</li>
+        </ul>
+        <ul class="row row-4">
+          <li id="CTRL" class="pinky-left">CTRL</li>
+          <li id="ALT" class="thumb">ALT</li>
+          <li id="SPACEBAR" class="thumb">SPACEBAR</li>
+          <li id="ALT" class="thumb">ALT</li>
+          <li id="CTRL" class="pinky-right">CTRL</li>
+        </ul>
+      </div>
+      <div class="sounds">
+        <input
+          class="sound"
+          type="checkbox"
+          id="sound"
+          name="sound on?"
+          checked
+        /><label for="sound">Sound on?</label>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="99"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+      <footer>Copyrights M.A.</footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
